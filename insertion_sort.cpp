@@ -1,10 +1,6 @@
-// C++ program for insertion sort
-
 #include <bits/stdc++.h>
 using namespace std;
 
-// Function to sort an array using
-// insertion sort
 void insertionSort(int arr[], int n)
 {
 	int i, key, j;
@@ -26,8 +22,7 @@ void insertionSort(int arr[], int n)
 	}
 }
 
-// A utility function to print an array
-// of size n
+
 void printArray(int arr[], int n)
 {
 	int i;
@@ -36,7 +31,7 @@ void printArray(int arr[], int n)
 	cout << endl;
 }
 
-// Driver code
+
 int main()
 {
 	int arr[] = { 12, 11, 13, 5, 6 };
@@ -47,4 +42,3 @@ int main()
 
 	return 0;
 }
-// This is code is contributed by rathbhupendra
